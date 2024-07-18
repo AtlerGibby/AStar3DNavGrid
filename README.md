@@ -1,7 +1,7 @@
 ![CoverImage](screenshots/CoverImageAStarNavGrid.png)
 
 # <img src="Astar3dNavgrid\addons\astar3dnavgrid\Art\AStarIcon.png" alt="icon" width="24"/> AStar3DNavGrid
-A system for easily creating grids and path finding using AStar3D. GDExtension binaries for Windows, Linux, and MacOS(Unsigned).
+A Godot 4.2 system for easily creating grids and path finding using AStar3D. GDExtension binaries for Windows, Linux, and MacOS(Unsigned).
 
 ## Features
 These are the main features of the addon.
