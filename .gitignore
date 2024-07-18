@@ -1,0 +1,13 @@
+# vscode .json files
+.vscode/
+# debugging files
+*.pdb
+# linker files
+src/*.obj
+# .tmp debugging files
+*.tmp
+# other build files
+*.lib
+*.exp
+# hidden files
+~*.dll

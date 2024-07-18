@@ -1,0 +1,10 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://bi4bmllwiu6c2"]
+
+[ext_resource type="Texture2D" uid="uid://bn5o5avowu88k" path="res://addons/astar3dnavgrid/Art/GridTile.png" id="1_ynihb"]
+
+[resource]
+transparency = 1
+albedo_color = Color(0.996078, 0.607843, 0.764706, 0.462745)
+albedo_texture = ExtResource("1_ynihb")
+uv1_triplanar = true
+uv1_world_triplanar = true

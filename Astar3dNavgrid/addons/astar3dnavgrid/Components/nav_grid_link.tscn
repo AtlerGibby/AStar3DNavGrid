@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://wmul2y5kap8s"]
+
+[ext_resource type="Script" path="res://addons/astar3dnavgrid/Scripts/NavGridLink.gd" id="1_bsmea"]
+
+[node name="NavGridLink" type="Node3D"]
+script = ExtResource("1_bsmea")

@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://dv1vlveq3wgbi"]
+
+[ext_resource type="Script" path="res://addons/astar3dnavgrid/Scripts/NavGrid.gd" id="1_muou7"]
+[ext_resource type="Material" uid="uid://dgx40ogkytsgd" path="res://addons/astar3dnavgrid/Art/path_visualization_mat.tres" id="2_1iylk"]
+[ext_resource type="Material" uid="uid://dj37j4x52213c" path="res://addons/astar3dnavgrid/Art/nav_grid_visualization_mat.tres" id="3_rcbxn"]
+
+[node name="NavGrid" type="Node3D"]
+script = ExtResource("1_muou7")
+grid_bake_physics_layer_mask = 2
+enable_navgrid_visualization = true
+enable_path_visualization = true
+path_visualization_mat = ExtResource("2_1iylk")
+navgrid_visualization_mat = ExtResource("3_rcbxn")
+
+[node name="MultiMeshInstance3D" type="MultiMeshInstance3D" parent="."]
+material_override = ExtResource("3_rcbxn")
+
+[node name="MultiMeshInstance3D2" type="MultiMeshInstance3D" parent="."]
+material_override = ExtResource("2_1iylk")

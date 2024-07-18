@@ -1,0 +1,70 @@
+[remap]
+
+importer="scene"
+importer_version=1
+type="PackedScene"
+uid="uid://qo3fk05yo2nb"
+path="res://.godot/imported/Node3D.gltf-e51e064c7cb5315ad0830648038a4f20.scn"
+
+[deps]
+
+source_file="res://addons/astar3dnavgrid/Art/Node3D.gltf"
+dest_files=["res://.godot/imported/Node3D.gltf-e51e064c7cb5315ad0830648038a4f20.scn"]
+
+[params]
+
+nodes/root_type=""
+nodes/root_name=""
+nodes/apply_root_scale=true
+nodes/root_scale=1.0
+meshes/ensure_tangents=true
+meshes/generate_lods=true
+meshes/create_shadow_meshes=true
+meshes/light_baking=1
+meshes/lightmap_texel_size=0.2
+meshes/force_disable_compression=false
+skins/use_named_skins=true
+animation/import=true
+animation/fps=30
+animation/trimming=false
+animation/remove_immutable_tracks=true
+import_script/path=""
+_subresources={
+"nodes": {
+"PATH:CSGCombiner3D2/CSGBox3D": {
+"import/skip_import": true
+},
+"PATH:CSGCombiner3D2/CSGBox3D2": {
+"import/skip_import": true
+},
+"PATH:CSGCombiner3D2/CSGCylinder3D": {
+"import/skip_import": true
+},
+"PATH:CSGCombiner3D2/CSGCylinder3D2": {
+"import/skip_import": true
+},
+"PATH:CSGCombiner3D2/CSGCylinder3D3": {
+"import/skip_import": true
+},
+"PATH:CSGCombiner3D2/CSGCylinder3D4": {
+"import/skip_import": true
+},
+"PATH:CSGCombiner3D2/CSGCylinder3D5": {
+"import/skip_import": true
+},
+"PATH:CSGCombiner3D2/CSGCylinder3D6": {
+"import/skip_import": true
+},
+"PATH:CSGCombiner3D2/CSGCylinder3D7": {
+"import/skip_import": true
+},
+"PATH:CSGCombiner3D2/CSGCylinder3D8": {
+"import/skip_import": true
+},
+"PATH:CSGCombiner3D2/CSGCylinder3D9": {
+"import/skip_import": true
+}
+}
+}
+gltf/naming_version=1
+gltf/embedded_image_handling=1
