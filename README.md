@@ -23,9 +23,9 @@ These are the components of the addon.
 ```python
 # Example of using some of the functions
 func example():
-    nav_agent = get_node("CollisionShape3D/NavGridAgent")
+	nav_agent = get_node("CollisionShape3D/NavGridAgent")
 	nav_agent.on_path_received.connect(path_received)
-    nav_agent.subscribe_for_path(my_nav_grid, position, target.position)
+	nav_agent.subscribe_for_path(my_nav_grid, position, target.position)
 ```
 
 ## Installation
